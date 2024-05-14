@@ -29,7 +29,7 @@ const ThemedCard = () => {
   return (
     <div
       className={`max-w-md mx-auto shadow-md rounded-lg p-6 ${
-        theme === "light" ? "" : "bg-gray-800"
+        theme === "light" ? "bg-white" : "bg-gray-800"
       }`}
     >
       <h1
